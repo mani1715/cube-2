@@ -79,7 +79,7 @@ const App = () => (
           <Toaster />
           <Sonner />
           <CookieConsent />
-          <PWAInstallPrompt />
+          <EnhancedPWAInstallPrompt />
           <PWAUpdatePrompt />
           <BrowserRouter>
             <UserProvider>
