@@ -138,9 +138,10 @@ const App = () => (
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </Suspense>
-              </AdminProvider>
-            </UserProvider>
-          </BrowserRouter>
+              </EnhancedErrorBoundary>
+            </AdminProvider>
+          </UserProvider>
+        </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
   </ThemeProvider>
