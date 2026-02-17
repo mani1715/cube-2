@@ -18,8 +18,8 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           '@type': 'MedicalOrganization',
           name: data.name || 'A-Cube Mental Health Platform',
           description: data.description || 'Professional mental health services and therapy',
-          url: data.url || 'https://puzzle-cube-11.preview.emergentagent.com',
-          logo: data.logo || 'https://puzzle-cube-11.preview.emergentagent.com/logo.png',
+          url: data.url || 'https://rubiks-builder.preview.emergentagent.com',
+          logo: data.logo || 'https://rubiks-builder.preview.emergentagent.com/logo.png',
           contactPoint: {
             '@type': 'ContactPoint',
             contactType: 'Customer Service',
@@ -45,7 +45,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             name: 'A-Cube Mental Health Platform',
             logo: {
               '@type': 'ImageObject',
-              url: 'https://puzzle-cube-11.preview.emergentagent.com/logo.png',
+              url: 'https://rubiks-builder.preview.emergentagent.com/logo.png',
             },
           },
           datePublished: data.publishedDate,
@@ -62,12 +62,12 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           endDate: data.endDate,
           location: {
             '@type': 'VirtualLocation',
-            url: data.url || 'https://puzzle-cube-11.preview.emergentagent.com',
+            url: data.url || 'https://rubiks-builder.preview.emergentagent.com',
           },
           organizer: {
             '@type': 'Organization',
             name: 'A-Cube Mental Health Platform',
-            url: 'https://puzzle-cube-11.preview.emergentagent.com',
+            url: 'https://rubiks-builder.preview.emergentagent.com',
           },
           eventStatus: 'https://schema.org/EventScheduled',
           eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
