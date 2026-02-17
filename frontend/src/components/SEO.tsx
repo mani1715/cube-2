@@ -16,14 +16,14 @@ const SEO = ({
   title = 'A-Cube Mental Health Platform',
   description = 'Professional mental health services, therapy sessions, and wellness programs. Connect with licensed psychologists and therapists for individual and group therapy.',
   keywords = ['mental health', 'therapy', 'counseling', 'psychologist', 'wellness', 'mental wellness', 'therapy sessions', 'group therapy'],
-  image = 'https://rubiks-builder.preview.emergentagent.com/og-image.jpg',
+  image = 'https://puzzle-cube-11.preview.emergentagent.com/og-image.jpg',
   type = 'website',
   author,
   publishedTime,
   modifiedTime,
 }: SEOProps) => {
   const location = useLocation();
-  const baseUrl = 'https://rubiks-builder.preview.emergentagent.com';
+  const baseUrl = 'https://puzzle-cube-11.preview.emergentagent.com';
   const currentUrl = `${baseUrl}${location.pathname}`;
 
   const fullTitle = title === 'A-Cube Mental Health Platform' 

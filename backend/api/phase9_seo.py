@@ -19,7 +19,7 @@ async def generate_sitemap():
     Includes all public pages, blogs, events, and careers.
     """
     try:
-        base_url = os.environ.get('BASE_URL', 'https://rubiks-builder.preview.emergentagent.com')
+        base_url = os.environ.get('BASE_URL', 'https://puzzle-cube-11.preview.emergentagent.com')
         
         # Create XML structure
         urlset = ET.Element('urlset')
@@ -143,7 +143,7 @@ async def generate_robots_txt():
     """
     Generate robots.txt for search engine crawlers.
     """
-    base_url = os.environ.get('BASE_URL', 'https://rubiks-builder.preview.emergentagent.com')
+    base_url = os.environ.get('BASE_URL', 'https://puzzle-cube-11.preview.emergentagent.com')
     
     robots_content = f"""User-agent: *
 Allow: /
